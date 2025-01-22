@@ -6,7 +6,7 @@ class MOD {
         String ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_";
 
         for (int i : x) {
-            System.out.print(a.charAt(i % 37));
+            System.out.print(ascii.charAt(i % 37));
         }
     }
 }
